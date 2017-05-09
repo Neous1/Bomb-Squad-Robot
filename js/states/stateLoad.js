@@ -18,6 +18,12 @@ var StateLoad = {
         game.load.audio("backgroundMusic", "audio/background/background.mp3");
         // game.load.audio("elephant", "audio/sfx/elephant.mp3");
 
+        game.load.audio("boom", "audio/sfx/boom.mp3");
+        game.load.audio("collect", "audio/sfx/collect.mp3");
+        game.load.audio("jump", "audio/sfx/jump.mp3");
+        game.load.audio("tick", "audio/sfx/tick.mp3");
+
+
         game.load.spritesheet("robot", "images/main/robot.png", 80,111,28);
         game.load.image("tiles","images/tiles.png");
 
