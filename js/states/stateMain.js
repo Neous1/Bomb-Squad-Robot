@@ -214,7 +214,7 @@ var StateMain = {
         game.physics.arcade.collide(this.robot, this.layer);
         game.physics.arcade.collide(this.monsterGroup, this.layer);
         game.physics.arcade.collide(this.monsterGroup, this.layer,null,this.reverseMonster);
-        game.physics.arcade.collide(this.robot, this.monsterGroup,null,this.hitMonster);
+        game.physics.arcade.collide(this.robot, this.monsterGroup,null,this.hitMonster,this);
         
         
         if(this.robot.body.onFloor()){        
